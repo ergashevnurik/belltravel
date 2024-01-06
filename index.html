@@ -1433,6 +1433,33 @@
     });
   </script>
 
+  <script type="text/javascript">
+    //-4008714885
+    document.querySelector('#submit-btn').onclick = function() {
+            // let phone = document.querySelector('#phone').value;
+            let email = document.querySelector('#email').value;
+            let name = document.querySelector('#name').value;
+            let subject = document.querySelector('#subject').value;
+            let text = document.querySelector('#message').value;
+
+            if (email.length <= 1 && email === "") {
+                alert("Please fill the email input");
+            } else {
+                let xHttp = new XMLHttpRequest();
+                let message = "Сообщение с веб-сайта\n📧Почта: " + email + "\n" + "👦Имя: " + name + '\n' + "📋Предмет: " + subject + '\n' + "✍️Сообщение: " + text;
+
+                const token = "6534429465:AAGFHMW8eHNf5WMlPmueUYFSdPZDTIqZ0FE";
+                const chatId = "-4008714885";
+                let url = 'https://api.telegram.org/bot' + token + '/sendMessage?chat_id=' + chatId + '&text=';
+                xHttp.open("GET", url + encodeURIComponent(message), true);
+                xHttp.send();
+
+                alert('Successfully sent');
+            }
+
+    }
+  </script>
+
 
 
 </body>
