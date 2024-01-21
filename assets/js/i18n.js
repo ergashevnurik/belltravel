@@ -1247,9 +1247,9 @@
   				"uz": "Bizning manzil"
   			},
   			"p3": {
-  				"ru": "г.Ташкент,Юнусабадский р-н. ул.Каракамишская, 2в",
-  				"en": "Tashkent, Yunusabad district. Karakamishskaya st., 2v",
-  				"uz": "Toshkent shahri, Yunusobod tumani. Karakamishskaya ko'chasi, 2v"
+  				"ru": "Хорезмская область, г. Ургенч, ул. Аль-Хорезми, 33",
+  				"en": "33 Al-Khorazmi street, Urganch city, Khorezm region",
+  				"uz": "Xorazm viloyati, Urganch shahri, Al-Xorazmiy ko'chasi 33-uy"
   			},
   			"p4": {
   				"ru": "Электронная почта",
